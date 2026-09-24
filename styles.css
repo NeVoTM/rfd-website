@@ -118,8 +118,8 @@ section h2 { color: var(--navy); margin-bottom: 1rem; }
 }
 .video-wrap {
   position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
+  width: 100%;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,.15);
@@ -128,11 +128,13 @@ section h2 { color: var(--navy); margin-bottom: 1rem; }
 .video-wrap iframe,
 .video-wrap video {
   position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   border: 0;
 }
-.video-wrap.vertical { padding-bottom: 177%; max-width: 360px; margin: 0 auto; }
 .video-wrap video::cue {
   background: rgba(26, 39, 68, 0.88);
   color: #fff;
