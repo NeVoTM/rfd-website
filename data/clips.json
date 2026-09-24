@@ -1,0 +1,49 @@
+{
+  "heroPortrait": "",
+  "portraits": [],
+  "featuredClipId": "what-a-hasid-is",
+  "clips": [
+    {
+      "id": "what-a-hasid-is",
+      "title": "What a Hasid is",
+      "hook": "Getting out of your own skin",
+      "language": "en",
+      "sourceYoutube": "81euhOv7zSo",
+      "youtubeId": "81euhOv7zSo",
+      "file": "what-a-hasid-is.mp4",
+      "transcriptId": "hachesed-video",
+      "transcriptStart": 64,
+      "transcriptDuration": 44,
+      "subtitles": {
+        "en": "what-a-hasid-is.en.vtt",
+        "es": "what-a-hasid-is.es.vtt",
+        "fr": "what-a-hasid-is.fr.vtt"
+      },
+      "published": true,
+      "tags": ["chesed"]
+    },
+    {
+      "id": "money-goes-direct",
+      "title": "The money goes direct",
+      "hook": "Widows, orphans, and $10,000 in his hand",
+      "language": "en",
+      "sourceYoutube": "81euhOv7zSo",
+      "youtubeId": "81euhOv7zSo",
+      "file": "money-goes-direct.mp4",
+      "transcriptId": "hachesed-video",
+      "transcriptStart": 204,
+      "transcriptDuration": 45,
+      "subtitles": {
+        "en": "money-goes-direct.en.vtt",
+        "es": "money-goes-direct.es.vtt",
+        "fr": "money-goes-direct.fr.vtt"
+      },
+      "published": true,
+      "tags": ["chesed"]
+    }
+  ],
+  "playlists": {
+    "chesed": "https://www.youtube.com/watch?v=81euhOv7zSo",
+    "donate": "https://simchaconnections.org/"
+  }
+}
