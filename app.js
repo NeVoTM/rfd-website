@@ -128,13 +128,23 @@
   }
 
   function mountHeroPortrait(el) {
-    if (!el || !data.heroPortrait) return;
+    if (!el) return;
+    if (!data.heroPortrait) {
+      el.hidden = true;
+      return;
+    }
     el.src = data.heroPortrait;
     el.alt = 'Rabbi Favish Dalfin';
   }
 
   function mountPortraitStrip(el) {
-    if (!el || !data.portraits) return;
+    if (!el) return;
+    if (!data.portraits || !data.portraits.length) {
+      el.hidden = true;
+      const heading = el.previousElementSibling;
+      if (heading && heading.tagName === 'H2') heading.hidden = true;
+      return;
+    }
     el.innerHTML = data.portraits.map(src =>
       `<img src="${src}" alt="Rabbi Favish Dalfin" loading="lazy">`
     ).join('');
