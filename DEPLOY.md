@@ -1,6 +1,7 @@
 # RFD.com — Live URLs
 
-- **Render (live now):** https://rfd-website-x19x.onrender.com
+- **Target host:** Cloudflare Pages (see [docs/MIGRATE_FROM_RENDER.md](docs/MIGRATE_FROM_RENDER.md))
+- **Render (legacy):** https://rfd-website-x19x.onrender.com — retire after DNS cutover
 - **GitHub:** https://github.com/NeVoTM/rfd-website
 - **Google Drive:** [17274/RFD](https://drive.google.com/drive/folders/1Q0rMoUb7ho-rt-m1uwCDSin3FHDJkeir) on elichalfinny@gmail.com
 
@@ -29,4 +30,4 @@ Render will issue SSL automatically once DNS propagates.
 
 ## Deploy
 
-Push to `main` on GitHub — Render auto-deploys from `NeVoTM/rfd-website`.
+Push to `main` on GitHub — **Cloudflare Pages** auto-deploys when the project is connected. User checklist: `C:\Users\17274\RENDER_MIGRATION_USER_STEPS.md`.
